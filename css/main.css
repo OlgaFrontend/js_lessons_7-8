@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+    margin: 50px;
+	height: 400px;
+	width: 600px;
+	border: 1px solid #C1C1C1;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+.tabs {
+    margin: 10px;
+    border: 1px solid #C1C1C1;
+    border-radius: 3px;
+}
+
+.tabnav {
+	display: flex;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+    background: #e9e9e9;
+    color: #333333;
+    
+}
+
+.tabnav li {
+	list-style: none;
+	margin: 14px 2px 9px;
+}
+
+.tabnav a {
+	padding: 10px 13px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+    background: #f4f5f5;
+	text-decoration: none;
+	color: #000;
+}
+
+.tabnav a:hover {
+    background: #e9e9e9;
+}
+
+.tabnav a:focus {
+    border: 1px solid #003eff;
+    background: #007fff;
+}
+
+#first, #second, #third {
+	padding: 30px 20px;
+}
+
+
+/*form*/
+
+.border {
+	margin: 10px;
+	border: 2px solid #c9c9c9;
+}
+
+.info {
+	margin: 20px;
+}
+
+#firstname {
+    margin-left: 10px;
+}
+
+#lastname {
+    margin-left: 10px;
+}
+
+#address {
+    margin-left: 23px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.tooltip {
+	padding: 2px;
+    display: none;
+	font-size: 13px;
+	border: 1px solid #c9c9c9;
+	border-radius: 3px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
